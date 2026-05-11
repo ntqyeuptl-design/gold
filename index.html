@@ -9,34 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@500;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- React & ReactDOM (UMD) -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    
-    <!-- Babel Standalone (for JSX) -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-    <!-- Firebase Compat SDKs (UMD) -->
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
     <div id="root"></div>
-
-    <!-- Firebase Config -->
-    <script src="firebase-config.js"></script>
-
-    <!-- React Components -->
-    <script type="text/babel" src="components/LiveClock.jsx"></script>
-    <script type="text/babel" src="components/GoldPriceDisplay.jsx"></script>
-    <script type="text/babel" src="components/PriceEditor.jsx"></script>
-    <script type="text/babel" src="components/SettingsModal.jsx"></script>
-    
-    <!-- Main App -->
-    <script type="text/babel" src="app.jsx"></script>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
